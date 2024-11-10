@@ -25,6 +25,6 @@ jobs:
           egress-policy: audit
 
       - name: Trunk Check
-        uses: trunk-io/trunk-action@2eaee169140ec559bd556208f9f99cdfdf468da8 # v1.1.18
+        uses: trunk-io/trunk-action@4d5ecc89b2691705fd08c747c78652d2fc806a94 # v1.1.19
         with:
           check-mode: payload
